@@ -1,4 +1,4 @@
-from classes.graphClass import Graph
+from graphs.classes.classeGrafo import Graph
 
 def exercicio1():
     n_vertices = int(input("Digite o número de matrizes: "))

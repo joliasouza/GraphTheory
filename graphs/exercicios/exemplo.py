@@ -1,4 +1,4 @@
-from classes.graphClass import Graph
+from graphs.classes.classeGrafo import Graph
 
 def exemplo():
     # Teste
