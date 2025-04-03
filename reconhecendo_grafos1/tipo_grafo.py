@@ -1,3 +1,18 @@
+"""
+Reconhecendo Grafos I
+    Dado um Grafo Conexo representado por uma quantidade de vértices N , uma quantidade de arestas
+    M e uma lista de arestas, imprima 1 caso este grafo seja um ciclo, 2 caso este grafo seja uma roda, 3
+    caso este grafo seja um grafo completo e -1 caso não seja nenhum dos 3. Cada vértice será representado
+    por um índice e cada aresta será representada por um par de índices.
+Entrada
+    A entrada conterá M + 1 linhas. A primeira linha conterá dois valores N e M representando
+    respectivamente a quantidade de vértices e a quantidade de arestas.
+    As próximas M linhas conterão dois inteiros u e v com valores entre 1 e N representando as arestas
+    do grafo.
+    É garantido que o numero de vertices N na entrada é maior que 3.
+Saída
+    A saída deverá conter um inteiro seguindo as definições especificadas no problema.
+"""
 class Grafo:
     # método construtor
     def __init__(self, n_vertices):
